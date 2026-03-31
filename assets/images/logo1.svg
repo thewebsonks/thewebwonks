@@ -1,0 +1,25 @@
+<svg width="500" height="120" viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradDM" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- DM Icon -->
+  <g transform="translate(10,20)">
+    <path d="M20 10 L60 10 L90 40 L60 70 L20 70 Z" fill="url(#gradDM)" />
+    <polygon points="45,30 65,40 45,50" fill="white"/>
+    <rect x="95" y="10" width="20" height="60" rx="5" fill="url(#gradDM)"/>
+  </g>
+
+  <!-- Text -->
+  <text x="140" y="60" font-family="Segoe UI, Arial, sans-serif" font-size="36" fill="#111">
+    Data<tspan fill="url(#gradDM)">Morpher</tspan>
+  </text>
+
+  <!-- Tagline -->
+  <text x="140" y="90" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#6B7280">
+    Format. Convert. Simplify.
+  </text>
+</svg>
